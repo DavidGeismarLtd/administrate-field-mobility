@@ -1,8 +1,9 @@
 module Administrate
   module Field
     module Mobility
+      VERSION = "0.0.2.david1"
       def self.version
-        "0.0.2"
+        VERSION
       end
     end
   end
