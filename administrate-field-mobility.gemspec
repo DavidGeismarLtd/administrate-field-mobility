@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.files = `git ls-files`.split("\n")
   gem.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
 
-  spec.add_dependency "administrate", ">= 0.13"
+  gem.add_dependency "administrate", ">= 0.13"
   
   gem.add_dependency "administrate-field-mobility-string", gem.version
   gem.add_dependency "administrate-field-mobility-text", gem.version
